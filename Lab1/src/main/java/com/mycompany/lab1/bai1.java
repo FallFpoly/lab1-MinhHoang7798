@@ -4,6 +4,8 @@
 
 package com.mycompany.lab1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author ICT
@@ -11,6 +13,11 @@ package com.mycompany.lab1;
 public class bai1 {
 
     public static void main(String[] args) {
-        // sinh viên code ở đây
+        Scanner sc = new Scanner(System.in);
+        System.out.println("hoten : ");
+        String hoten = sc.nextLine();
+        System.out.print("diemTB: "); 
+        double diemTB = sc.nextDouble();
+        System.out.printf("%s, %.2f diem\n", hoten , diemTB);
     }
 }
