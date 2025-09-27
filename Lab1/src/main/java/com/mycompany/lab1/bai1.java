@@ -19,5 +19,7 @@ public class bai1 {
         System.out.print("diemTB: "); 
         double diemTB = sc.nextDouble();
         System.out.printf("%s, %.2f diem\n", hoten , diemTB);
+        
+        
     }
 }
